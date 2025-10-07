@@ -32,3 +32,9 @@ h1{
 body{
     background-color: hsl(190, 100%, 90%);
 }
+#resultbox{
+    background-color: hsl(190, 100%, 70%) ;
+}
+p{
+    background-color: yellow;
+}
