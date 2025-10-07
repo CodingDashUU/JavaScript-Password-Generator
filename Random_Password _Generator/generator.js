@@ -32,8 +32,8 @@ let numbers_amount = Number(document.getElementById("number").value)
 let symbols_amount = Number(document.getElementById("symbol").value)
 
 
-if(numbers_amount > numbers.length || symbols_amount > symbols.length){
-    result.textContent = "Your amount of numbers/symbols cannot be higher than available"
+if(numbers_amount > numbers.length || symbols_amount > symbols.length || letters_amount > letters.length || big_letters_amount > big_letters.length){
+    result.textContent = "Your amount of numbers/symbols/letters cannot be higher than available"
     result.style.backgroundColor = "red"
     result.style.display = "inline-block"
 }
