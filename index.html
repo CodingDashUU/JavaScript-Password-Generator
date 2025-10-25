@@ -20,11 +20,17 @@
     <input type="number" id="symbol" class="inputs"> <br>
     <label for="bigletter" class="labels">How many uppercase letters do you need?</label> <br>
     <input type="number" id="bigletter" class="inputs"> <br> <br>
+    <label for="" class="labels">Choose a type of password</label> <br> <br> <br>
+    <select name="" id="typePasswords"> 
+        <option value="repeated" id="repeated">Password with repeated characters</option>
+        <option value="unique" id="unique">Unique Password</option>
+    </select> <br><br> <br>
     <button id="submit">Generate</button> <br> <br> <br>
     <div id="resultbox">
+
     <p>Results:</p> <p id="result"></p>
+    <ol id="passwordList"></ol>
     </div>
-     </div>
      
     
     <script src="generator.js"></script>

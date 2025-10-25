@@ -16,6 +16,7 @@
 }
 .labels,.inputs,p{
     font-size: 3em;
+    text-align: center;
 }
 .inputs{
     width: 300px;
@@ -34,7 +35,39 @@ body{
 }
 #resultbox{
     background-color: hsl(190, 100%, 70%) ;
+    overflow-x: scroll;
 }
-p{
-    background-color: yellow;
+
+#passwordList{
+    font-size: 4em;
+    margin-left: 90px;
+    margin-top: 10px;
+    list-style: Extreme;
+   
+
+}
+#typePasswords{
+    transform: scale(3,3);
+}
+option{
+    font-size: 3em;
+}
+#repeated{
+    background-color: hsl(0, 100%, 70%);
+}
+#unique{
+    background-color: hsl(120, 100%, 75%);
+}
+#repeated:hover{
+    background-color: hsl(0, 100%, 50%);
+}
+#unique:hover{
+   background-color: hsl(120, 100%, 45%);
+}
+
+
+@counter-style Extreme {
+    system: cyclic;
+    symbols: "💻" "🖥️" "⌨️" "🖱️" "📱";
+    
 }
